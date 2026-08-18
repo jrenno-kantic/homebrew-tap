@@ -1,18 +1,31 @@
-# Jrenno-kantic Tap
+# jrenno-kantic Homebrew Tap
 
-## How do I install these formulae?
+Homebrew formulae maintained by Kantic Analytics.
 
-`brew install jrenno-kantic/tap/<formula>`
+## HERD
 
-Or `brew tap jrenno-kantic/tap` and then `brew install <formula>`.
+[HERD](https://github.com/jrenno-kantic/herd) is a terminal control plane for
+`llama-server`.
 
-Or, in a `brew bundle` `Brewfile`:
+Install the formula directly:
+
+```bash
+brew install jrenno-kantic/tap/herd-llm
+```
+
+The formula installs the executable as `herd` and includes the `llama.cpp` and
+`hf` runtime dependencies required for launching and downloading models.
+
+Alternatively, tap the repository first:
+
+```bash
+brew tap jrenno-kantic/tap
+brew install herd-llm
+```
+
+In a `Brewfile`:
 
 ```ruby
 tap "jrenno-kantic/tap"
-brew "<formula>"
+brew "herd-llm"
 ```
-
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
