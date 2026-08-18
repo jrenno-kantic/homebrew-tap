@@ -1,6 +1,6 @@
 # jrenno-kantic Homebrew Tap
 
-Homebrew formulae maintained by Kantic Analytics.
+Homebrew formulae maintained by Jacky Renno.
 
 ## HERD
 
