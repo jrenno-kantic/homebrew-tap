@@ -1,0 +1,6 @@
+# macOS
+.DS_Store
+._*
+
+# Homebrew test-bot leaves these behind when formulae are built locally
+*.bottle.*
